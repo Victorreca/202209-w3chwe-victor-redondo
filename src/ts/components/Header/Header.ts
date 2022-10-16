@@ -9,6 +9,7 @@ class Header extends Component {
     super.render();
     this.domElement.innerHTML = `
     <h1 class='main-title'>Pokémon</h1>
+    <img src="images/pokemon-logo.svg" alt="logo pokémon" >
     <nav class="menu">
       <ul>
         <li><a href="#">View Pokémons</a></li>
