@@ -38,15 +38,31 @@ ul {
   list-style: none;
 }
 
-header.main-header {
+.main-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .poke-list {
-  padding-left: 5%;
+  padding-top: 5%;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-title {
   visibility: hidden;
+}
+
+.pokemon-card__picture {
+  width: 200px;
+}
+
+.poke-list__pokemon {
+  padding-right: 40px;
+  text-align: center;
+}
+.poke-card {
+  padding-bottom: 70px;
 }
