@@ -42,3 +42,7 @@ header.main-header {
   display: flex;
   justify-content: space-around;
 }
+
+.poke-list {
+  padding-left: 5%;
+}
