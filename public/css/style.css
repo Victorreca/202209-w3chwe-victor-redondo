@@ -46,3 +46,7 @@ header.main-header {
 .poke-list {
   padding-left: 5%;
 }
+
+.main-title {
+  visibility: hidden;
+}
