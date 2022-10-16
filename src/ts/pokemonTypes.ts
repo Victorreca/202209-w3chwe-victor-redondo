@@ -1,4 +1,4 @@
-interface PokemonCard {
+export interface Pokemon {
   name: string;
   id: number;
   sprites: {
@@ -10,4 +10,7 @@ interface PokemonCard {
   };
 }
 
-export default PokemonCard;
+export interface PokemonList {
+  count: number;
+  results: [{ name: string; url: string }];
+}
