@@ -8,7 +8,6 @@ export class PokeList extends Component {
     private readonly pokemons: Pokemon[]
   ) {
     super(parentElement, "poke-list", "div");
-    // Estará en un div con class= poke-list
   }
 
   render() {
@@ -17,7 +16,6 @@ export class PokeList extends Component {
   }
 
   newPokemons(pokemons: Pokemon[]): void {
-    // Creamos método, y le pasamos el array de pokemons
     pokemons.forEach((pokemon) => {
       const pokeCard = new PokeCard(this.domElement, "", "#", pokemon);
       pokeCard.render();
