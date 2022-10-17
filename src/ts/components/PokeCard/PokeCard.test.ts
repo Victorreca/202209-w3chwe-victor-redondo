@@ -5,13 +5,10 @@ import PokeCard from "./PokeCard";
 
 let screen: HTMLElement;
 
-beforeEach(() => {
-  screen = document.createElement("div");
-});
-
 describe("Given a PokemonCard component", () => {
-  describe("When it's rendered with Charmander", () => {
+  describe("When it's rendered with Charmander data", () => {
     test("Then it should show 'Charmander' inside heading level 2", () => {
+      const screen = document.createElement("div");
       const charmander: Pokemon = {
         id: 4,
         name: "charmander",
